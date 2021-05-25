@@ -14,7 +14,7 @@ describe('Dayjs Test', function() {
         it('Parse a Date String', function() {
             let dayjsUsage = new DayjsUsage()
             expect(dayjsUsage.parseDatestring('2021-02-24T23:52:57:397 +0400'))
-                .to.equal('Feb 25, 2021, 01:52:57:397, +0600')
+                .to.equal('Feb 24, 2021, 19:52:57:397, +0000')
         })
         it('Parse a Date String and Store With UTC Offset', function() {
             let dayjsUsage = new DayjsUsage()
@@ -28,7 +28,7 @@ describe('Dayjs Test', function() {
             expect(dayjsUsage.addMonthsToDate(
                 '2021-02-24T23:52:57:397 +0600',
                 25
-            )).to.equal('Mar 24, 2023, 23:52:57:397, +0600')
+            )).to.equal('Mar 24, 2023, 17:52:57:397, +0000')
         })
         it('Get the difference between to dates in days', function() {
             let dayjsUsage = new DayjsUsage()

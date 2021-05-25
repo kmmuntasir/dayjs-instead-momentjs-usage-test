@@ -21,7 +21,8 @@ class DayjsUsage {
         return dayjs().utc().utcOffset(utcOffset).format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     parseDatestring(dateString, inputFormat=null, dateFormat=null) {
-        return dayjs(dateString, inputFormat != null ? inputFormat : defaultDateFormat)
+        return dayjs
+            .utc(dateString, inputFormat != null ? inputFormat : defaultDateFormat)
             .format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     parseDatestringAndStoreWithUtcOffset(dateString, utcOffset, inputFormat=null, dateFormat=null) {
@@ -31,7 +32,7 @@ class DayjsUsage {
             .format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     addMonthsToDate(dateString, numberOfMonths, inputFormat=null, dateFormat=null) {
-        let currentDate = dayjs(dateString, inputFormat ?? defaultDateFormat)
+        let currentDate = dayjs.utc(dateString, inputFormat != null ? inputFormat : defaultDateFormat)
         let endDate = currentDate.month(currentDate.month() + numberOfMonths)
         return endDate.format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
