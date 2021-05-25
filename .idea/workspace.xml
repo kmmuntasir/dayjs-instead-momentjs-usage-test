@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31ff5a39-47a8-46f3-bce9-4bfe1a46fcc3" name="Default Changelist" comment="">
+    <list default="true" id="31ff5a39-47a8-46f3-bce9-4bfe1a46fcc3" name="Default Changelist" comment="Convert variables into constants">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usages/dayjs_usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/usages/dayjs_usage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621973444693</updated>
       <workItem from="1621973446714" duration="5000" />
-      <workItem from="1621973663315" duration="6697000" />
+      <workItem from="1621973663315" duration="7118000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with Dayjs class file, update README.md">
       <created>1621977134392</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621980819753</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Convert variables into constants">
+      <created>1621981016417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621981016417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
     <MESSAGE value="Initialize project with Dayjs class file, update README.md" />
     <MESSAGE value="Write tests" />
     <MESSAGE value="Modify test script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify test script" />
+    <MESSAGE value="Convert variables into constants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Convert variables into constants" />
   </component>
 </project>

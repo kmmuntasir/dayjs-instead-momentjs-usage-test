@@ -15,25 +15,25 @@ const defaultDisplayFormat = 'MMM DD, YYYY, HH:mm:ss:SSS, ZZ'
 class DayjsUsage {
 
     getCurrentTime(dateFormat=null) {
-        return dayjs().format(dateFormat ?? defaultDisplayFormat);
+        return dayjs().format(dateFormat !=null ? dateFormat : defaultDisplayFormat);
     }
     getCurrentTimeWithUtcOffset(utcOffset, dateFormat=null) {
-        return dayjs().utc().utcOffset(utcOffset).format(dateFormat ?? defaultDisplayFormat)
+        return dayjs().utc().utcOffset(utcOffset).format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     parseDatestring(dateString, inputFormat=null, dateFormat=null) {
-        return dayjs(dateString, inputFormat ?? defaultDateFormat)
-            .format(dateFormat ?? defaultDisplayFormat)
+        return dayjs(dateString, inputFormat != null ? inputFormat : defaultDateFormat)
+            .format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     parseDatestringAndStoreWithUtcOffset(dateString, utcOffset, inputFormat=null, dateFormat=null) {
         return dayjs
-            .utc(dateString, inputFormat ?? defaultDateFormat)
+            .utc(dateString, inputFormat != null ? inputFormat : defaultDateFormat)
             .utcOffset(utcOffset)
-            .format(dateFormat ?? defaultDisplayFormat)
+            .format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     addMonthsToDate(dateString, numberOfMonths, inputFormat=null, dateFormat=null) {
         let currentDate = dayjs(dateString, inputFormat ?? defaultDateFormat)
         let endDate = currentDate.month(currentDate.month() + numberOfMonths)
-        return endDate.format(dateFormat ?? defaultDisplayFormat)
+        return endDate.format(dateFormat !=null ? dateFormat : defaultDisplayFormat)
     }
     getDaysDiff(startDatestring, endDatestring) {
         let startDate = dayjs(startDatestring, defaultDateFormat)
