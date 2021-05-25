@@ -11,8 +11,8 @@ dayjs.extend(isBetween)
 
 class DayjsUsage {
 
-    defaultDateFormat     = 'YYYY-MM-DD HH:mm:ss:SSS ZZ'
-    defaultDisplayFormat  = 'MMM DD, YYYY, HH:mm:ss:SSS, ZZ'
+    defaultDateFormat = 'YYYY-MM-DD HH:mm:ss:SSS ZZ'
+    defaultDisplayFormat = 'MMM DD, YYYY, HH:mm:ss:SSS, ZZ'
 
     getCurrentTime(dateFormat=null) {
         return dayjs().format(dateFormat ?? this.defaultDisplayFormat);
