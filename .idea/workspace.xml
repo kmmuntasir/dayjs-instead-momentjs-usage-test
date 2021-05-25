@@ -64,7 +64,7 @@
       <updated>1621973444693</updated>
       <workItem from="1621973446714" duration="5000" />
       <workItem from="1621973663315" duration="7620000" />
-      <workItem from="1621984170262" duration="1339000" />
+      <workItem from="1621984170262" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with Dayjs class file, update README.md">
       <created>1621977134392</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621985191984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update Readme">
+      <created>1621985517935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621985517935</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +152,7 @@
     <MESSAGE value="Add coveralls for test coverage" />
     <MESSAGE value="Add start and cover scripts in package.json" />
     <MESSAGE value="Install istambul for test coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install istambul for test coverage" />
+    <MESSAGE value="Update Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme" />
   </component>
 </project>
