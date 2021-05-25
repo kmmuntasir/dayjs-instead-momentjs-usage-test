@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dayjs-instead-momentjs-usage-test" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/bin/nodejs/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>
