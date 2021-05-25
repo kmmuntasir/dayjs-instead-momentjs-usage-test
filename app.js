@@ -1,4 +1,4 @@
-const {DayjsUsage} = require('./dayjs_usage.js')
+const {DayjsUsage} = require('./usages/dayjs_usage')
 const dayjsUsage = new DayjsUsage()
 
 function line() {
