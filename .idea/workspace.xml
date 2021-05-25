@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="31ff5a39-47a8-46f3-bce9-4bfe1a46fcc3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usages/dayjs_usage.js" beforeDir="false" afterPath="$PROJECT_DIR$/usages/dayjs_usage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +52,9 @@
   </component>
   <component name="RunManager" selected="Mocha.Dayjs Test">
     <list>
-      <item itemvalue="Node.js.dayjs-instead-momentjs-usage-test" />
       <item itemvalue="Mocha.Dayjs Test" />
+      <item itemvalue="Node.js.dayjs-instead-momentjs-usage-test" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Mocha.Dayjs Test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1621973444693</updated>
       <workItem from="1621973446714" duration="5000" />
-      <workItem from="1621973663315" duration="7487000" />
+      <workItem from="1621973663315" duration="7620000" />
+      <workItem from="1621984170262" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project with Dayjs class file, update README.md">
       <created>1621977134392</created>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621981437641</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix timezone depended error in test expectations">
+      <created>1621981811588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621981811588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +122,7 @@
     <MESSAGE value="Modify test script" />
     <MESSAGE value="Convert variables into constants" />
     <MESSAGE value="Convert ?? operators to conditional statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert ?? operators to conditional statements" />
+    <MESSAGE value="Fix timezone depended error in test expectations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix timezone depended error in test expectations" />
   </component>
 </project>
